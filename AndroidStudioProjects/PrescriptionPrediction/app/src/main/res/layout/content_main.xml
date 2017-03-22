@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.prepre.zakiya.prescriptionprediction.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prescription Prediction"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textSize="25sp"
+        />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New member? Sign up here"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textSize="12sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        />
+
+</RelativeLayout>

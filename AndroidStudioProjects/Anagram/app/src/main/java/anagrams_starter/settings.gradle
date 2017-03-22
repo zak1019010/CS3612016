@@ -1,0 +1,3 @@
+package anagrams_starter
+
+include ':app'
